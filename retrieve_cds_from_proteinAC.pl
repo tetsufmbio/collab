@@ -2,7 +2,7 @@
 #
 # retrieve_cds_from_proteinAC.pl
 #
-# Description: 	a Perl script that takes a list file containing protein accessions from 
+# Description:  a Perl script that takes a list file containing protein accessions from 
 #				NCBI (GI or accession number) separated by newlines and retrieves their 
 #				CDS sequences. All retrieved sequences are written in "sequence_cds.fna".
 #
