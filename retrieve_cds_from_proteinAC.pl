@@ -28,7 +28,9 @@ use XML::Simple qw(XMLin);
 use Data::Dumper;
 
 if (scalar @ARGV != 1){
-    die "Usage: perl retrieve_cds_from_proteinAC.pl <accession_list_file>\n\n";
+    print "Usage: perl retrieve_cds_from_proteinAC.pl <accession_list_file>\n\n";
+	print "<accession_list_file> is a file containing the protein accession from NCBI (GI or accession number) separated by newlines.\n\n" ;
+	exit;
 }
 
 my $listFile = shift @ARGV;
